@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MainController23145!{% endblock %}
+
+{% block body %}
+{% for product in products %}
+    <p>{{ product.title}} </p>
+    <p>{{ product.material}} </p>
+    <p>{{ product.gender}} </p>
+    <p>{{ product.size}} </p>
+    <p>{{ product.price}} </p>
+{% endfor %}
+
+
+{% endblock %}

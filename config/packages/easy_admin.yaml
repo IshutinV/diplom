@@ -1,0 +1,11 @@
+easy_admin:
+
+  entities:
+    Product:
+      class: App\Entity\Product
+      fields:
+        -'title'
+        -'material'
+        -'gender'
+        -'size'
+        -'price'

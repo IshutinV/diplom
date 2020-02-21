@@ -1,0 +1,11 @@
+ul.main-nav-list{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+.container{
+    background-color: red;
+}
